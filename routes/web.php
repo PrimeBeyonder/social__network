@@ -2,8 +2,11 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
+Route::get('/social', function () {
     return view("socail.index");
+});
+Route::get('/', function () {
+    return view("welcome");
 });
 
 Auth::routes();
