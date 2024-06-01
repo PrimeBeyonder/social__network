@@ -110,8 +110,11 @@
             <nav class="col-md-5 col-lg-3 d-md-block sidebar">
                 <div class="profile">
                     <img src="https://via.placeholder.com/100" alt="Profile Picture">
-                    <h3>Andrew Thomas</h3>
-                    <p>nga paw, sayr G</p>
+                  @foreach ($user as $u )
+                      <h3>{{$u['name']}}</h3>
+                    <p>{{$u["bio"]}}</p>
+                  @endforeach
+                    
                 </div>
                 <div class="stats">
                     <div>
@@ -160,9 +163,9 @@
                     <h1 class="h2">Feed</h1>
                     <div class="btn-toolbar mb-2 mb-md-0">
                         <div class="btn-group mr-2">
-                            <button type="button" class="btn btn-sm btn-outline-secondary">Notifications</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary me-3">Notifications</button>
+                            <input type="text" class="form-control form-control-sm" placeholder="Search" aria-label="Search">
                         </div>
-                        <input type="text" class="form-control form-control-sm" placeholder="Search" aria-label="Search">
                     </div>
                 </div>
                 <!-- Stories -->

@@ -1,13 +1,9 @@
 <?php
 
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/social', function () {
-    return view("socail.index");
-});
-Route::get('/', function () {
-    return view("welcome");
-});
+Route::get('/', [UserController::class , "account"]);
 
 Auth::routes();
 
