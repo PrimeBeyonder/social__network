@@ -10,6 +10,10 @@
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
          body {
             font-family: Arial, sans-serif;
             background-color: #f0f2f5;
@@ -17,7 +21,7 @@
         .sidebar {
             background-color: #f7f7f7;
             height: 100vh;
-            padding: 20px;
+            padding:  20px;
             position: fixed;
            
             box-shadow: 2px 0 5px rgba(0,0,0,0.1);
