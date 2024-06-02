@@ -22,7 +22,7 @@
             background-color: #f7f7f7;
             height: 100vh;
             padding:  20px;
-            position: fixed;
+       
            
             box-shadow: 2px 0 5px rgba(0,0,0,0.1);
         }
@@ -100,7 +100,7 @@
         .settings i {
             margin-right: 5px;
         }
-  
+     
     </style>
 </head>
 <body>
@@ -173,15 +173,20 @@
                 <!-- Feed -->
                 <div class="feed">
                     <div class="row">
-                        <div class="col-md-6">
-                            <img src="path_to_feed_image.jpg" alt="Feed Image">
-                            <p>26.3k likes</p>
-                            <p>Tell ya homies we got 10 more shades of #PROFILT... </p>
+                        <div class="col-lg-6 col-xl-4">
+                            <img src="https://via.placeholder.com/300x150" class="post_image" alt="Feed Image">
+                            <p class="post_likes">26.3k likes</p>
+                            <p class="post_caption">Tell ya homies we got 10 more shades of #PROFILT... </p>
                         </div>
-                        <div class="col-md-6">
-                            <img src="path_to_feed_image.jpg" alt="Feed Image">
-                            <p>98,433 likes</p>
-                            <p>If you're tired of getting denied & need some help fixing your credit or...</p>
+                        <div class="col-lg-6 col-xl-4">
+                            <img src="https://via.placeholder.com/300x150" alt="Feed Image" class="post_image">
+                            <p class="post_likes">98,433 likes</p>
+                            <p class="post_caption">If you're tired of getting denied & need some help fixing your credit or...</p>
+                        </div>
+                        <div class="col-lg-6 col-xl-4">
+                            <img src="https://via.placeholder.com/300x150" alt="Feed Image" class="post_image">
+                            <p class="post_likes">98,433 likes</p>
+                            <p class="post_caption">If you're tired of getting denied & need some help fixing your credit or...</p>
                         </div>
                     </div>
                 </div>
