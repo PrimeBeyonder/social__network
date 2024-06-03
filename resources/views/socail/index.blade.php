@@ -21,9 +21,7 @@
         .sidebar {
             background-color: #f7f7f7;
             height: 100vh;
-            padding:  20px;
-       
-           
+            padding:  20px;    
             box-shadow: 2px 0 5px rgba(0,0,0,0.1);
         }
         .sidebar .profile {
@@ -97,10 +95,7 @@
             align-items: center;
             cursor: pointer;
         }
-        .settings i {
-            margin-right: 5px;
-        }
-     
+
     </style>
 </head>
 <body>
